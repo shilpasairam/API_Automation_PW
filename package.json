@@ -1,0 +1,14 @@
+{
+  "name": "api-automation-playwright-js",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "ajv": "^8.17.0"
+  }
+}
